@@ -1,0 +1,54 @@
+#
+#
+# begin of volatile config
+com.ti.omap_enhancement=true
+
+# Display
+ro.opengles.version=131072
+ro.sf.lcd_density=240
+hwui.render_dirty_regions=false
+persist.sys.ui.hw = 1
+
+# Wi-Fi
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=120
+
+# RIL
+ro.telephony.ril_class=RIL
+mobiledata.interfaces=pdp0,wlan0,gprs,ppp0,rmnet0
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.telephony.call_ring.delay=0
+ro.config.fast_dormancy = false
+
+# GPS
+ro.config.hw_gps=4751
+
+# USB
+persist.sys.usb.config=mass_storage,adb
+
+# UMS
+ro.vold.umsdirtyratio=50
+
+# Huawei specific
+audioril.lib=libhuawei-audio-ril.so
+modem.audio=1
+dolby.audio.hdmi.channels=0
+ro.kernel.android.checkjni = 0
+ro.config.fm_type=libbcmfm_if
+ro.config.KeyPassToUser=true
+ro.config.hw_GSensorOptimize=true
+ro.config.hw_vcardBase64=true
+ro.config.endstksession=true
+ro.config.hw_omacp=1
+ro.config.hw_ecclist_withcard=1+110,6+119,8+118
+ro.config.hw_ecclist_nocard=1+110,6+119,8+118
+ro.config.hw_globalEcc = true
+ro.config.hw_eapsim=false
+ro.config.hw_flashless=false
+ro.config.hw_boardid=unknown
+ro.config.sim_hot_swap=true
+ro.config.hw_proximitySensor=true
+gsm.sim.num.pin2=3
+gsm.sim.num.puk2=10
+#

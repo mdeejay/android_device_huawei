@@ -1,0 +1,21 @@
+#for PVR
+/dev/pvrsrvkm             0666   system     system
+#for DSSCOMP
+/dev/dsscomp              0660   system     system
+/dev/tiler                0666   system     system
+#for SYSLINK
+/dev/rpmsg-omx0           0660   drmrpc    drmrpc
+/dev/rpmsg-omx1           0660   drmrpc    drmrpc
+/dev/rproc_user           0660   drmrpc    drmrpc
+/dev/tf_driver            0660   drmrpc    drmrpc
+/dev/tf_ctrl              0660   drmrpc    drmrpc
+#for GCX
+/dev/gcioctl              0666   system     system
+/dev/akm8975_aot	  0660   system     system
+/dev/akm8975_dev      	  0660   system     system
+/dev/proximity		  0660   system     system
+/dev/light    	 	  0660   system     system
+#for lcd_tuning
+/dev/pri_lcd              0666   system     system
+
+/dev/audience_es305       0777   system     audio
